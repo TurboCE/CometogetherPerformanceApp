@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: '컴투게더 공연 안내',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage>
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        backgroundColor: Colors.lime,
+        backgroundColor: Colors.blueGrey,
         bottom: new TabBar(
           controller: ctr,
           tabs: <Tab>[
