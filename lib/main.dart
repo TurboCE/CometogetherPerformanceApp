@@ -224,11 +224,8 @@ class _MyHomePageState extends State<MyHomePage>
                 onPressed: () {
                   launchWebView(snapshot.data.documents[0]['cast']);
                 },
-                disabledElevation: 10.0,
-                elevation: 5.9,
-                focusElevation: 2.0,
                 label: Text('Open'),
-                icon: Icon(Icons.youtube_searched_for),
+                icon: Icon(Icons.open_in_browser),
                 backgroundColor: Colors.blueGrey,
               ),
             );
